@@ -4,9 +4,9 @@ def main():
         a=int(input("<"))
         if(a%2==0):
             print("Even")
-        elif(a%2!=0):
-            print("Odd")
-        else:
+        elif(a<1):
             print("Invalid")
+        else:
+            print("Odd")
 if __name__=='__main__':
     main()
